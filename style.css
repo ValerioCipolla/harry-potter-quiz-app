@@ -63,8 +63,7 @@ body {
 }
 
 #container-card {
-  min-height: auto;
-  max-height: 80vh;
+  height: auto;
   max-width: 80%;
   background-color: rgba(228, 228, 228, 0.897);
   display: grid;
@@ -119,11 +118,9 @@ body {
 }
 
 #footer {
-  position: absolute;
-  bottom:0;
-  right: 0;
   padding: 0.5rem;
   font-size: 2rem;
+  margin-top: 2rem;
 }
 
 #reset-btn {
