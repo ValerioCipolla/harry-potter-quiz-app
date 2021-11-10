@@ -19,9 +19,9 @@
 }
 
 .modal {
-  height: 200px;
-  width: 200px;
-  text-align: center;
+  width: 80%;
+  height: auto;
+  min-height: 50vh;
   background-color: rgba(228, 228, 228, 0.897);
   display: grid;
   justify-content: center;
@@ -59,7 +59,6 @@ body {
   text-align: center;
   min-height: 100vh;
   font-family: 'Dongle', sans-serif;
-  line-height: 1.5;
 }
 
 #container-card {
@@ -96,20 +95,20 @@ body {
 }
 
 #question {
-  margin-bottom: 2rem;
-  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
 }
 
 #options {
   display: grid;
-  grid-gap: 1rem;
+  grid-gap: 0.5rem;
   margin-bottom: 0.5rem;
   font-family: 'Dongle', sans-serif;
 }
 
 #options button {
-  padding: 0.5rem;
-  font-size: 1.1rem;
+  padding: 0.3rem;
+  font-size: 1rem;
   outline: none;
   border: 1px solid var(--silver);
   border-radius: 0.5rem;

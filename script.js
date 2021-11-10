@@ -87,7 +87,6 @@ function startQuiz() {
   startButton.classList.toggle("hide");
   footer.classList.toggle("hide");
   heading.classList.toggle("hide");
-  containerCard.style.minHeight = "80vh";
   displayNextQuestion();
 }
 
