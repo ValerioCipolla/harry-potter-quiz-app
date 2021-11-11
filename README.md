@@ -2,6 +2,6 @@
 
 This is a simple quiz application based on the Harry Potter Books.
 
-At the moment is fairly simple, using 10 hard coded questions, It was good practice for my javascript objects skills.
+At the moment is fairly simple, using 10 hard coded questions, It was good practice for my javascript objects skills, I plan on improving this, by adding a bigger pool of possible questions (possibly using an API??), and displaying ten random questions for each time the quiz is started.
 
-I also took a mobile-first approach when designing the page and I plan on adding more features (bigger pool of possible questions, rather than always the same ones for example), and I also plan optimizing the design for bigger screens too.
+I took a mobile-first approach when designing this application, I have now added a design for bigger screens now (769px and bigger), and it is quite a lot different from the mobile design, so I suggest checking it out both the versions of the quiz.

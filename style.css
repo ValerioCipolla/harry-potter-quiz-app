@@ -12,6 +12,7 @@
   --gold: #D3A625;
   --yellow: #EEBA30;
   --silver: #C0C0C0;
+  --grey: rgb(31, 31, 31);
 }
 
 .hide {
@@ -88,10 +89,10 @@ body {
   padding: 0.5rem;
   font-size: 2rem;
   outline: none;
-  border: 1px solid var(--silver);
+  border: none;
   border-radius: 0.5rem;
   background-color:var(--dark-red);
-  color:var(--silver);
+  color: white;
 }
 
 #question {
@@ -107,13 +108,14 @@ body {
 }
 
 #options button {
+  min-width: 150px;
   padding: 0.3rem;
   font-size: 1rem;
   outline: none;
-  border: 1px solid var(--silver);
+  border: none;
   border-radius: 0.5rem;
   background-color:var(--dark-red);
-  color:var(--silver);
+  color: white;
 }
 
 #footer {
@@ -127,13 +129,93 @@ body {
   padding: 0.5rem;
   font-size: 2rem;
   outline: none;
-  border: 1px solid var(--silver);
+  border: none;
   border-radius: 0.5rem;
   background-color:var(--dark-red);
-  color:var(--silver);
+  color: white;
 }
 
 #reset-btn a {
   text-decoration: none;
-  color:var(--silver);
+  color: white;
+}
+
+@media (min-width: 769px) {
+
+  body {
+    background-image: url("https://images.ctfassets.net/usf1vwtuqyxm/FguKzCQXYbXvJMS27FKqZ/5a936f1febc6e5767626c1831ded406a/USH_Hogwarts2_VB.jpg");
+    height: 100%;
+  
+  }
+
+  #container-card {
+    max-width: 80%;
+    min-width: 70%;
+    min-height: 50vh;
+    background-color: rgba(228, 228, 228, 0.74);
+  }
+  
+  #container-card h1 {
+    margin: 3rem 0;
+    color: var(--grey);
+  }
+
+  #start-btn {
+    width: 70%;
+    padding: 1rem;
+    background-color: black;
+  }
+
+  #start-btn:hover {
+    background-color: var(--grey);
+  }
+
+  #question {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+  }  
+
+  #options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  #options button {
+    min-width: 150px;
+    padding: 1rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: black;
+    color: white;
+  }
+
+  #options button:hover {
+    background-color: var(--grey);
+  }
+
+  .modal {
+    max-width: 80%;
+    min-height: 50vh;
+    background-color:  rgba(228, 228, 228, 0.74);
+  }
+
+  .modal h2 {
+    font-size: 3rem;
+    color: black
+  }
+
+  #reset-btn {
+    width: 70%;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+  }
+  
+  #reset-btn:hover{
+    background-color: var(--grey);
+  }
 }
